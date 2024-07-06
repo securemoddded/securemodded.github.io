@@ -1,0 +1,123 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #252525;
+    color: #333;
+}
+
+header {
+    background-image: url('/images/Sunset.jpg'); 
+    padding: 1em;
+    text-align: center;
+}
+
+.title {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.project-image {
+    max-width: 200px; /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+}
+.project-image2 {
+    max-width: 150px; /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #323232;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+a {
+    color: lightpink;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.skill-level {
+    margin-left: 2px;
+    font-weight: bold;
+    color: lightpink;
+}
+
+button {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: lightpink;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.project-image {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.project-details {
+    flex-grow: 1;
+}
+
+.credits {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.spotifyFrame {
+    margin-left: 80px;
+}
+.social-links a[href*="discord.gg"] i {
+    color: #5662F6;
+}
+
+.social-links a[href*="open.spotify.com"] i {
+    color: #1DB954;
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+@media only screen and (max-width: 600px) {
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .project-container .project-image {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  
